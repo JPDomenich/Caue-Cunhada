@@ -174,15 +174,30 @@ button:hover {
 
 @media (max-width: 768px) {
   .texto-sobre-imagem {
-    top: 60%; /* diminui pra não sumir */
+    top: 60%; 
     font-size: 12px; /* diminui o texto */
   }
+  h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 36px;
+  color: white;
+  }
 
+  h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  }
+  .textinho {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: white;
+  }
   .contador {
     font-size: 24px;
     margin-top: 12px;
   }
-
   .imagem-capa {
     height: auto; /* garante que a imagem se ajuste corretamente */
   }
