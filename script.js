@@ -5,7 +5,7 @@ document.getElementById('confirmar-btn').addEventListener('click', () => {
 
 
 // Define a data do evento
-  const dataEvento = new Date("August 16, 2025 19:30:00").getTime();
+  const dataEvento = new Date("August 15, 2025 19:00:00").getTime();
 
   const contador = setInterval(() => {
     const agora = new Date().getTime();
