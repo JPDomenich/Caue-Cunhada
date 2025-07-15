@@ -1,0 +1,173 @@
+/* Reset e base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Great Vibes', cursive;
+  background-color: #fdf6f0;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+/* Imagem de capa */
+.imagem-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.imagem-capa {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0.5;
+}
+
+.texto-sobre-imagem {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  font-size: 42px;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 48px;
+  color: white;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+}
+
+.textinho {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: white;
+}
+
+.contador {
+  font-size: 30px;
+  color: white;
+  font-family: 'Great Vibes', cursive;
+  margin-top: 20px;
+}
+
+/* Conteúdo principal */
+.conteudo-convite {
+  padding: 32px 16px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Mensagem */
+.mensagem {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 24px;
+}
+
+/* Detalhes */
+.detalhes p {
+  font-family: 'Courgette', cursive;
+  margin: 6px 0;
+  color: #555;
+  font-size: 16px;
+}
+
+/* Botão */
+button {
+  background-color: #d43f57;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #b53046;
+}
+
+/* Imagem e legenda */
+.imagem-legenda {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.imagem-rosa {
+  width: 120px;
+  max-width: 100%;
+  height: auto;
+}
+
+.legenda {
+  font-size: 16px;
+  color: black;
+  margin-top: 8px;
+  font-style: normal;
+  font-family: 'Great Vibes', cursive;
+}
+
+/* Mapa */
+.mapa-container {
+  margin-top: 24px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Div cinza */
+.div-cinza {
+  width: 100vw;            /* largura total da viewport */
+  background-color: #f0f0f0;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin-top: 32px;
+  border-top: 2px solid #ccc;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.div-cinza h2 {
+    font-family: 'Great Vibes', cursive;
+  margin-bottom: 12px;
+  font-size: 56px;
+  color: #444;
+}
+
+.div-cinza .legenda {
+  color: black !important;
+  font-family: 'Great Vibes', cursive !important;
+  font-style: normal !important; /* tira o itálico */
+  margin-top: 8px !important;
+  font-size: 16px !important;
+}
+
+.div-cinza .imagem-legenda {
+  margin-bottom: 32px; /* igual à outra */
+  font-family: Arial, sans-serif;
+}
