@@ -175,7 +175,7 @@ button:hover {
 @media (max-width: 768px) {
   .texto-sobre-imagem {
     top: 60%; /* diminui pra não sumir */
-    font-size: 32px; /* diminui o texto */
+    font-size: 12px; /* diminui o texto */
   }
 
   .contador {
